@@ -38,3 +38,5 @@ public class ForkJoinPortfolioApp {
 // Tag 5: Synthetic asset data array generated
 
 // Tag 6: ForkJoinPool parallel execution
+
+// Tag 7: Execution time profiling completed
