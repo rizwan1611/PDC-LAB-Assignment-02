@@ -12,3 +12,5 @@ public class TelemetryThread extends Thread {
         System.out.println("[" + getName() + "] Telemetry Monitoring Cleaned Up.");
     }
 }
+
+// Telemetry metrics string formatting updated
