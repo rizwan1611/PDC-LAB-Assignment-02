@@ -40,3 +40,5 @@ public class ParallelSearchApp {
 // Tag 5: Dataset generated
 
 // Tag 6: Search execution initiated
+
+// Tag 7: Execution benchmark logged
