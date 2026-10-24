@@ -12,3 +12,4 @@ public class LogProcessorTask implements Runnable {
         System.out.println("[" + Thread.currentThread().getName() + "] Log Analysis Batch Completed.");
     }
 }
+// Log processor string output updated
