@@ -6,8 +6,8 @@ public class PacketSymmetryAuditor {
         TransactionStack stack = new TransactionStack(n);
         RequestQueue queue = new RequestQueue(n);
 
-        System.out.println("=== ZERO-TRUST EDGE SECURITY GATEWAY ===");
-        System.out.println("Ingesting Packet Payload: " + packetPayload);
+        System.out.println("=== ZERO-TRUST EDGE SECURITY GATEWAY [v2.0] ===");
+        System.out.println("Ingesting Network Packet Payload: " + packetPayload);
 
         for (int i = 0; i < n; i++) {
             char ch = packetPayload.charAt(i);
@@ -27,11 +27,12 @@ public class PacketSymmetryAuditor {
             }
         }
 
-        System.out.println("\n=== AUDIT LOG TERMINAL RESULT ===");
+        System.out.println("\n=== AUDIT LOG TERMINAL VERIFICATION RESULT ===");
         if (isSymmetrical) {
-            System.out.println("VERDICT: Packet Exhibits Bi-Directional Symmetry (PALINDROME VERIFIED)");
+            System.out.println("VERDICT: Packet Exhibits Bi-Directional Symmetry [PALINDROME PASSED]");
         } else {
-            System.out.println("VERDICT: Packet Symmetry Check FAILED (TAMPERED/ASYMMETRIC)");
+            System.out.println("VERDICT: Packet Symmetry Check Failed [TAMPERED LOG DETECTED]");
         }
     }
 }
+// Edge gateway packet symmetry auditor execution completed
