@@ -10,8 +10,8 @@ public class ExecutorPrimeApp {
         int threadPoolSize = 4;
         int chunkSize = maxRange / threadPoolSize;
 
-        System.out.println("=== EXECUTORSERVICE PARALLEL PRIME NUMBER FINDER ===");
-        System.out.println("Range: 1 to " + maxRange + " | Fixed Thread Pool Size: " + threadPoolSize);
+        System.out.println("=== EXECUTORSERVICE PARALLEL PRIME DISCOVERY ENGINE [v2.0] ===");
+        System.out.println("Numerical Range: 1 to " + maxRange + " | Fixed Thread Pool Size: " + threadPoolSize);
 
         ExecutorService executor = Executors.newFixedThreadPool(threadPoolSize);
         List<Future<List<Integer>>> futureList = new ArrayList<>();
@@ -48,13 +48,3 @@ public class ExecutorPrimeApp {
     }
 }
 // Application driver for parallel prime calculation using ExecutorService
-
-// Tag 3: Thread pool initialized
-
-// Tag 4: Range partitioning added
-
-// Tag 5: Future collection iteration
-
-// Tag 6: Executor shutdown added
-
-// Tag 7: Execution profiling completed
