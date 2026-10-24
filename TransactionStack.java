@@ -34,3 +34,4 @@ public class TransactionStack {
     }
 }
 // Enhanced TransactionStack memory boundary checks
+// Step 1: LIFO stack optimization tag added
