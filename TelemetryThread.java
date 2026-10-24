@@ -6,7 +6,7 @@ public class TelemetryThread extends Thread {
             try {
                 Thread.sleep(800);
             } catch (InterruptedException e) {
-                System.err.println("Telemetry Thread Interrupted: " + e.getMessage());
+                System.err.println(" The Telemetry Thread Interrupted: " + e.getMessage());
             }
         }
         System.out.println("[" + getName() + "] Telemetry Monitoring Cleaned Up.");
