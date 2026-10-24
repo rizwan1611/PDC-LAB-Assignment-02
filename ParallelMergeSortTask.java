@@ -50,3 +50,5 @@ public class ParallelMergeSortTask extends RecursiveAction {
 // Parallel merge sort recursive action implementation
 
 // Tag 1: Sequential threshold initialized
+
+// Tag 2: Divide and conquer merge method added
