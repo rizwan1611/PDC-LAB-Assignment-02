@@ -37,3 +37,5 @@ public class PrimeSearchTask implements Callable<List<Integer>> {
 // Tag 1: Primality trial division logic added
 
 // Tag 2: Range iteration call method added
+
+// Tag 1: Trial division algorithm optimized
