@@ -33,3 +33,5 @@ public class PortfolioThresholdTask extends RecursiveAction {
 }
 // Portfolio threshold stress-test recursive action implementation
 // Tag 3: Volatility stress test added
+
+// Tag 4: Parallel subtask invocation added
