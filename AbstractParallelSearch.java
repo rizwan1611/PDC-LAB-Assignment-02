@@ -26,3 +26,5 @@ public abstract class AbstractParallelSearch {
 // Abstract base template for parallel search algorithms
 
 // Tag 1: Search parameters initialized
+
+// Tag 2: Getter methods implemented
