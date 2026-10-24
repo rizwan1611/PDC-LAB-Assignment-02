@@ -33,3 +33,5 @@ public class PrimeSearchTask implements Callable<List<Integer>> {
     }
 }
 // Callable prime identification task for thread pool execution
+
+// Tag 1: Primality trial division logic added
