@@ -48,3 +48,4 @@ public class ExecutorPrimeApp {
     }
 }
 // Application driver for parallel prime calculation using ExecutorService
+// Tag 2: Thread pool worker size validated
