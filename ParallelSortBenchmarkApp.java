@@ -44,3 +44,5 @@ public class ParallelSortBenchmarkApp {
 // Application driver for parallel sorting benchmark and profiling
 
 // Tag 3: Array generation added
+
+// Tag 4: Sequential benchmark timed
