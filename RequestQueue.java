@@ -1,4 +1,3 @@
-
 public class RequestQueue {
     private char[] queueArray;
     private int front;
@@ -36,3 +35,4 @@ public class RequestQueue {
         return size == 0;
     }
 }
+// Optimized RequestQueue circular buffer indices
