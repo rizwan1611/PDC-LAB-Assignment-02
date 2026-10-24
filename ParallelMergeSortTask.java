@@ -48,3 +48,5 @@ public class ParallelMergeSortTask extends RecursiveAction {
     }
 }
 // Parallel merge sort recursive action implementation
+
+// Tag 1: Sequential threshold initialized
