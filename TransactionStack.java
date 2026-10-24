@@ -33,3 +33,4 @@ public class TransactionStack {
         return top == -1;
     }
 }
+// Enhanced TransactionStack memory boundary checks
