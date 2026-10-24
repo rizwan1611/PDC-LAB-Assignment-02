@@ -17,3 +17,4 @@ public class AsyncWebEngineApp {
         System.out.println(" The Worker threads started. Master main() thread continuing non-blocking operations.\n");
     }
 }
+// Master thread logger header updated
