@@ -45,3 +45,5 @@ public class LinearParallelSearch extends AbstractParallelSearch {
 // Concrete multi-worker linear array search implementation
 
 // Tag 3: Multi-worker chunking added
+
+// Tag 4: Synchronization logic implemented
