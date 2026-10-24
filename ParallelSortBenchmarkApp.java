@@ -48,3 +48,5 @@ public class ParallelSortBenchmarkApp {
 // Tag 4: Sequential benchmark timed
 
 // Tag 5: Parallel benchmark invoked
+
+// Tag 6: Speedup metric calculated
