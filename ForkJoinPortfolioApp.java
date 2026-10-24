@@ -36,3 +36,5 @@ public class ForkJoinPortfolioApp {
 // Fork/Join portfolio application main entry driver
 
 // Tag 5: Synthetic asset data array generated
+
+// Tag 6: ForkJoinPool parallel execution
