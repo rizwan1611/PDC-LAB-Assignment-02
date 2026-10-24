@@ -48,3 +48,5 @@ public class ExecutorPrimeApp {
     }
 }
 // Application driver for parallel prime calculation using ExecutorService
+
+// Tag 3: Thread pool initialized
