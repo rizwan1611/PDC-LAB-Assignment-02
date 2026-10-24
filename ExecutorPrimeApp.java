@@ -52,3 +52,5 @@ public class ExecutorPrimeApp {
 // Tag 3: Thread pool initialized
 
 // Tag 4: Range partitioning added
+
+// Tag 5: Future collection iteration
