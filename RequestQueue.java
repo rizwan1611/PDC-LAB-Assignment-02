@@ -36,3 +36,4 @@ public class RequestQueue {
     }
 }
 // Optimized RequestQueue circular buffer indices
+// Step 2: Circular queue index tag added
