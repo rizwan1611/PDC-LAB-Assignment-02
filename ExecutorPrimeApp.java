@@ -54,3 +54,5 @@ public class ExecutorPrimeApp {
 // Tag 4: Range partitioning added
 
 // Tag 5: Future collection iteration
+
+// Tag 6: Executor shutdown added
