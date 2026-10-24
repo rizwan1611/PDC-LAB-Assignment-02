@@ -6,7 +6,7 @@ public class LogProcessorTask implements Runnable {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
-                System.err.println("Log Processor Interrupted: " + e.getMessage());
+                System.err.println(" The Log Processor Interrupted: " + e.getMessage());
             }
         }
         System.out.println("[" + Thread.currentThread().getName() + "] Log Analysis Batch Completed.");
