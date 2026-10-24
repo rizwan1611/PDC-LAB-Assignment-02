@@ -34,3 +34,5 @@ public class ParallelRiskCalculator extends RecursiveTask<Double> {
     }
 }
 // Parallel risk calculator recursive task implementation
+
+// Tag 1: Workload threshold initialized
