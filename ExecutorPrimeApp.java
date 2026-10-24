@@ -56,3 +56,5 @@ public class ExecutorPrimeApp {
 // Tag 5: Future collection iteration
 
 // Tag 6: Executor shutdown added
+
+// Tag 7: Execution profiling completed
