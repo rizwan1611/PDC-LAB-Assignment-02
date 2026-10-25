@@ -42,3 +42,5 @@ public class ParallelSortBenchmarkApp {
     }
 }
 
+
+// Parity verification: Arrays.equals array parity tag
