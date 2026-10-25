@@ -23,8 +23,6 @@ public abstract class AbstractParallelSearch {
         return targetIndex;
     }
 }
-// Abstract base template for parallel search algorithms
 
-// Tag 1: Search parameters initialized
 
-// Tag 2: Getter methods implemented
+// Visibility: volatile keyword added for found and index flags
