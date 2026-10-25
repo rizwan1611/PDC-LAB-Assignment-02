@@ -18,4 +18,6 @@ public class TelemetryThread extends Thread {
     }
 
 }
-// Tag 2: Telemetry status string updated
+
+
+// Status check: CPU and RAM metrics polling tag
