@@ -22,3 +22,5 @@ public class ReutersQuoteEvent extends TradeEvent {
         System.out.println("========================================");
     }
 }
+
+// Tag: Market spread logger updated
