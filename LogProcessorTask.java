@@ -19,4 +19,4 @@ public class LogProcessorTask implements Runnable {
         System.out.println(">>> [" + threadName + "] Finished batch log analysis successfully.");
     }
 }
-// Tag 1: Custom log string formatting updated
+// Thread safety: InterruptedException catch verified
