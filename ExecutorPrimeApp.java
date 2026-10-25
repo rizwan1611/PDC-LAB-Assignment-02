@@ -47,7 +47,6 @@ public class ExecutorPrimeApp {
         System.out.println("ExecutorService thread pool gracefully shut down.");
     }
 }
-// Application driver for parallel prime calculation using ExecutorService
-// Tag 2: Thread pool worker size validated
 
-// Tag 3: Future blocking get loop updated
+
+// Resource cleanup: explicit executor shutdown tag added
