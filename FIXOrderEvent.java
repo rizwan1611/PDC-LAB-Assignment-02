@@ -23,3 +23,7 @@ public class FIXOrderEvent extends TradeEvent {
     }
 }
 // Tag: FIX adapter fee logic verified
+
+// Tag: FIX adapter fee logic verified
+
+// Log formatting: explicit transaction fee tags added
