@@ -1,15 +1,21 @@
 public class LogProcessorTask implements Runnable {
+    
     @Override
     public void run() {
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("[" + Thread.currentThread().getName() + "] Batch Log Analysis Iteration: " + i + "/5");
+        String threadName = Thread.currentThread().getName();
+        
+        for (int step = 1; step <= 5; step++) {
+            System.out.println(" [" + threadName + "] Parsing application log entry " + step + " of 5...");
+            
             try {
+                // Pause task execution for 1 second
                 Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                System.err.println(" The Log Processor Interrupted: " + e.getMessage());
+            } catch (InterruptedException err) {
+                System.out.println("Log worker interrupted: " + err.getMessage());
+                break;
             }
         }
-        System.out.println("[" + Thread.currentThread().getName() + "] Log Analysis Batch Completed.");
+        
+        System.out.println(">>> [" + threadName + "] Finished batch log analysis successfully.");
     }
 }
-// Log processor string output updated
