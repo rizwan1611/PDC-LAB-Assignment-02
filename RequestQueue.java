@@ -37,3 +37,5 @@ public class RequestQueue {
 }
 // Optimized RequestQueue circular buffer indices
 // Step 2: Circular queue index tag added
+
+// Circular indexing: front and rear pointer validation
