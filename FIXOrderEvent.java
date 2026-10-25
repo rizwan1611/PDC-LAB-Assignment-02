@@ -22,3 +22,4 @@ public class FIXOrderEvent extends TradeEvent {
         System.out.println("========================================");
     }
 }
+// Tag: FIX adapter fee logic verified
