@@ -42,8 +42,6 @@ public class LinearParallelSearch extends AbstractParallelSearch {
         return targetIndex;
     }
 }
-// Concrete multi-worker linear array search implementation
 
-// Tag 3: Multi-worker chunking added
 
-// Tag 4: Synchronization logic implemented
+// Synchronization: atomic target index assignment tag
