@@ -1,16 +1,20 @@
 public class TelemetryThread extends Thread {
+
     @Override
     public void run() {
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("[" + getName() + "] Telemetry Health Metrics Capture Iteration: " + i + "/5 (CPU: Normal, Memory: Stable)");
+        for (int cycle = 1; cycle <= 5; cycle++) {
+            System.out.println(" [" + getName() + "] Collecting system status [Cycle " + cycle + "/5] -> RAM & CPU OK");
+            
             try {
+                // Pause task execution for 800ms
                 Thread.sleep(800);
-            } catch (InterruptedException e) {
-                System.err.println(" The Telemetry Thread Interrupted: " + e.getMessage());
+            } catch (InterruptedException err) {
+                System.out.println("Telemetry background thread interrupted: " + err.getMessage());
+                break;
             }
         }
-        System.out.println("[" + getName() + "] Telemetry Monitoring Cleaned Up.");
+        
+        System.out.println(">>> [" + getName() + "] Background telemetry monitor stopped.");
     }
-}
 
-// Telemetry metrics string formatting updated
+}
