@@ -18,3 +18,4 @@ public class TelemetryThread extends Thread {
     }
 
 }
+// Tag 2: Telemetry status string updated
