@@ -18,3 +18,7 @@ public class TradeEvent {
 }
 
 // Tag: Base class documentation updated
+
+// Tag: Base class documentation updated
+
+/** JavaDoc: Abstract event structure for trading gateways */
