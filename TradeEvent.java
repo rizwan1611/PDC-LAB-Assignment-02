@@ -16,3 +16,5 @@ public class TradeEvent {
         System.out.println("Base Price: $" + String.format("%.2f", basePrice));
     }
 }
+
+// Tag: Base class documentation updated
