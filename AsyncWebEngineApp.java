@@ -1,20 +1,24 @@
-
 public class AsyncWebEngineApp {
+
     public static void main(String[] args) {
-        System.out.println("........ASYNCHRONOUS WEB ENGINE INITIALIZATION.........");
-        System.out.println(" The Default Master JVM Thread Name: " + Thread.currentThread().getName());
-        System.out.println(" The Spawning concurrent telemetry and log processing workers...\n");
+        System.out.println("===========================================");
+        System.out.println("  Starting Web Telemetry Engine...");
+        System.out.println("  Current Executing Thread: " + Thread.currentThread().getName());
+        System.out.println("===========================================\n");
 
+        // Set up background telemetry monitor
         TelemetryThread telemetryWorker = new TelemetryThread();
-        telemetryWorker.setName("Telemetry-Worker");
+        telemetryWorker.setName("Telemetry-Service");
 
+        // Set up log processor task
         LogProcessorTask logTask = new LogProcessorTask();
-        Thread logWorker = new Thread(logTask, "Log-Workker");
+        Thread logWorker = new Thread(logTask, "LogProcessor-Service");
 
+        // Launch worker threads
+        System.out.println("Spawning background worker threads...\n");
         telemetryWorker.start();
         logWorker.start();
 
-        System.out.println(" The Worker threads started. Master main() thread continuing non-blocking operations.\n");
+        System.out.println("Main thread execution continuing in non-blocking mode.\n");
     }
 }
-// Master thread logger header updated
